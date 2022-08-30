@@ -3,13 +3,6 @@
 
 [![DOI](https://zenodo.org/badge/530442339.svg)](https://zenodo.org/badge/latestdoi/530442339)
 
-```html
-
-
-<a href="https://zenodo.org/badge/latestdoi/530442339"><img src="https://zenodo.org/badge/530442339.svg" alt="DOI"></a>
-
-
-```
 
 Analysis code used in Galeano Nino et al., Impact of Intratumoral Microbiota on Spatial and Cellular Heterogeneity in human cancer. 2022
 
