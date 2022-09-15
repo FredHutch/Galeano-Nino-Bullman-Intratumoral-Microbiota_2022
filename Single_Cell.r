@@ -38,7 +38,7 @@ sample_BM319435.data<-Read10X(data.dir = "BM319435/outs/filtered_feature_bc_matr
 sample_BM319435 = CreateSeuratObject(counts = sample_BM319435.data, project = "Sample_BM319435", min.cells = 3, min.features = 200)
 sample_BM319435[["percent.mt"]] <- PercentageFeatureSet(sample_BM319435, pattern = "^MT-")
 # merge, cluster and Harmony integration
-sample.headneck <- merge(sample_9347, y = c(sample_9398,sample_9236,sample_9237,sample_9218,sample_BM320030,sample_BM319435), add.cell.ids = c('Sample_9347','Sample_9398','Sample_9236','Sample_9237','Sample_9218','Sample_BM320030',"Sample_BM319435"), project = "SAMPLE.INTEGRATED")
+sample.headneck <- merge(sample_9347, y = c(sample_9398,sample_9236,sample_9237,sample_9218,sample_BM320030,sample_BM319435), add.cell.ids = c('Sample_9347','Sample_9398','Sample_9236_T','Sample_9237_T','Sample_9218_T','Sample_BM320030',"Sample_BM319435"), project = "SAMPLE.INTEGRATED")
 
 VlnPlot(sample.headneck, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
 sample.headneck <- NormalizeData(object = sample.headneck, normalization.method = "LogNormalize", scale.factor = 10000)
