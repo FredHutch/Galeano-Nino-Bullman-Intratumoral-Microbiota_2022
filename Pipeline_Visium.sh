@@ -51,7 +51,7 @@ for folder in *
 do
 each_sample=${folder}
 echo ${each_sample}
-python UMI_annotator.py \
+python UMI_annotator_Visium.py \
 ${bam_path}/${each_sample}/outs/possorted_genome_bam.bam \
 '' \
 ${bam_path}/${each_sample}/outs/raw_feature_bc_matrix/barcodes.tsv.gz \
