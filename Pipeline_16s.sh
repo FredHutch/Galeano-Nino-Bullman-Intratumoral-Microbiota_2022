@@ -134,7 +134,7 @@ cd ${bam_path}
 for each_sample in *
 do
 echo ${each_sample}
-python python UMI_annotator.py \
+python python UMI_annotator_sce.py \
 ${bam_path}/${each_sample}/outs/possorted_genome_bam.bam \
 Sample_${each_sample} \
 ${nova_bam_path}/${each_sample}/outs/filtered_feature_bc_matrix/barcodes.tsv.gz \
