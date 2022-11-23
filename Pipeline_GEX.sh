@@ -67,7 +67,7 @@ for each_sample in *
 do
 echo ${each_sample}
 # cell names will be: sample_${each_sample}
-python UMI_annotator_sce.py \
+python UMI_annotator.py \
 ${bam_path}/${each_sample}/outs/possorted_genome_bam.bam \
 sample_${each_sample} \
 ${bam_path}/${each_sample}/outs/filtered_feature_bc_matrix/barcodes.tsv.gz \
