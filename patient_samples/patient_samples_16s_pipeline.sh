@@ -17,7 +17,7 @@ ml Pysam
 `root` # working directory
 `pathseqdb` # Pathseq database
 `cellrangerdb` # Cellranger database
-`nova_bam_path` # barcodes.tsv.gz from GEX is used as a 'whitelist' for real cells
+`gex_bam_path` # barcodes.tsv.gz from GEX is used as a 'whitelist' for real cells
 
 root=${workdir}
 # Run cellranger count
