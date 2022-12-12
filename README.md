@@ -25,7 +25,7 @@ Prior to running the analysis scripts, reference databases were downloaded for P
 and CellRanger (January 2022).
 The location of those reference databases is provided to the analysis scripts using the environment variables `pathseqdb` and `cellrangerdb`.
 
-# Overview of the Computational Pipeline for Bacteria-associated Cell Annotation
+# Overview of the Computational Pipeline for Bacteria-associated Spots/Cells Annotation
 
 ## Part 1: 10x Visium spatial transcriptomic data
 ## 10X Visium Scans have been uploaded to Zenodo: https://doi.org/10.5281/zenodo.7419806
