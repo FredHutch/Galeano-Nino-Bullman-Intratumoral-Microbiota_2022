@@ -10,7 +10,6 @@ output_path = 'Visium/data_processing/rds'
 
 # a cycle for generating rds files
 for (each_sample in sample.names){
-
     print(each_sample)
     data_path = paste0(samples_folder,'/',each_sample,'/outs')
     metadata_file = paste0(processed_foler,'/',each_sample,'.visium.raw_matrix.genus.csv')
