@@ -13,6 +13,8 @@ section of Galeano Nino et al., Effect of the intratumoral microbiota on spatial
 
 Tiff files can be accessed via: https://fh-pi-bullman-s-eco-public.s3.us-west-2.amazonaws.com/DataTransfer/Galeano_Nino_et_al_visium_scans/CRC_OSCC_visium_tiff.tar.gz and https://doi.org/10.5281/zenodo.7419806
 
+Please note for sample CRC_16, the slide id is V10S15-020 and area code is D1; for sample OSCC_2, the slide id is V11A07-022 and area code is A1.
+
 We also uploaded fastq files for your convenience: https://fh-pi-bullman-s-eco-public.s3.us-west-2.amazonaws.com/DataTransfer/Galeano_Nino_et_al_visium_scans/CRC_OSCC_visium_fastq.tar.gz
 
 ## Environment and Reference Data
