@@ -9,7 +9,7 @@ Analysis code used in Galeano Nino et al., Effect of the intratumoral microbiota
 The code in this repository is organized to reflect the description in the Methods
 section of Galeano Nino et al., Effect of the intratumoral microbiota on spatial and cellular heterogeneity in cancer. 2022.
 ## 10X Visium Scans for CRC and OSCC samples
-10X Visium Scans associated with the paper are uploaded to AWS and Zenodo. 
+10X Visium Scans associated with manuscript submission are uploaded to AWS and Zenodo. 
 
 Tiff files can be accessed via: https://fh-pi-bullman-s-eco-public.s3.us-west-2.amazonaws.com/DataTransfer/Galeano_Nino_et_al_visium_scans/CRC_OSCC_visium_tiff.tar.gz and https://doi.org/10.5281/zenodo.7419806
 
