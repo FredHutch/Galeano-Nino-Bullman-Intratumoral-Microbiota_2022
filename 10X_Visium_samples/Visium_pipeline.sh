@@ -49,16 +49,16 @@ echo ${each_sample}
 python UMI_annotator.py \
 ${bam_path}/${each_sample}/outs/possorted_genome_bam.bam \
 '' \
-${bam_path}/${each_sample}/outs/filtered_feature_bc_matrix/barcodes.tsv.gz \
+${bam_path}/${each_sample}/outs/raw_feature_bc_matrix/barcodes.tsv.gz \
 ${pathseq_path}/${each_sample}.pathseq.complete.bam \
 ${pathseq_path}/${each_sample}.pathseq.complete.csv \
-${out_path}/${each_sample}.visium.filtered_matrix.readname \
-${out_path}/${each_sample}.visium.filtered_matrix.unmap_cbub.bam \
-${out_path}/${each_sample}.visium.filtered_matrix.unmap_cbub.fasta \
-${out_path}/${each_sample}.visium.filtered_matrix.list \
-${out_path}/${each_sample}.visium.raw.filtered_matrix.readnamepath \
-${out_path}/${each_sample}.visium.filtered_matrix.genus.cell \
-${out_path}/${each_sample}.visium.filtered_matrix.genus.csv \
-${out_path}/${each_sample}.visium.filtered_matrix.validate.csv
+${out_path}/${each_sample}.visium.raw_matrix.readname \
+${out_path}/${each_sample}.visium.raw_matrix.unmap_cbub.bam \
+${out_path}/${each_sample}.visium.raw_matrix.unmap_cbub.fasta \
+${out_path}/${each_sample}.visium.raw_matrix.list \
+${out_path}/${each_sample}.visium.raw.raw_matrix.readnamepath \
+${out_path}/${each_sample}.visium.raw_matrix.genus.cell \
+${out_path}/${each_sample}.visium.raw_matrix.genus.csv \
+${out_path}/${each_sample}.visium.raw_matrix.validate.csv
 done
 
