@@ -187,7 +187,7 @@ print('start processing')
 # CRC_16
 sample_name = 'CRC_16'
 print(sample_name)
-metadata_file = 'data_processing/selected_samples_for_counting/sample.visium_A1_metadata.csv'
+metadata_file = 'data_processing/selected_samples_for_counting/sample.visium_CRC_16_metadata.csv'
 orig_ident = ''
 cell_names_set = extract_bac_pos_cells(metadata_file, orig_ident)
 validate_csv = 'data_processing/python/CRC_16.visium.raw_matrix.validate.csv'
@@ -204,7 +204,7 @@ output_read(output_file, genus_count_dict)
 # OSCC_02
 sample_name = 'OSCC_02'
 print(sample_name)
-metadata_file = 'data_processing/selected_samples_for_counting/sample.visium_D1_metadata.csv'
+metadata_file = 'data_processing/selected_samples_for_counting/sample.visium_OSCC_02_metadata.csv'
 orig_ident = ''
 cell_names_set = extract_bac_pos_cells(metadata_file, orig_ident)
 validate_csv = 'data_processing/python/OSCC_02.visium.raw_matrix.validate.csv'
