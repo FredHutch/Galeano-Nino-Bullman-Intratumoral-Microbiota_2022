@@ -8,7 +8,7 @@ processed_foler = 'Visium/data_processing/python'
 samples_folder = 'Visium/raw_data/count'
 output_path = 'Visium/data_processing/rds'
 
-# a cycle for generating rds files
+# a loop for generating rds files
 for (each_sample in sample.names){
     print(each_sample)
     data_path = paste0(samples_folder,'/',each_sample,'/outs')
