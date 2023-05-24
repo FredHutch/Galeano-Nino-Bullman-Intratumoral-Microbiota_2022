@@ -14,6 +14,7 @@ import sys
 
 # Note: Merged_csv_matrix_from_previous_step is a csv file conting 7 clinical samples from our study
 #       otherwise please modify the sample names in the script.
+#       'nova' refer to GEX data, 'mi' refer to 16S data
 """
 
 def read_and_mkdic(validate_csv_file, sample_name):
